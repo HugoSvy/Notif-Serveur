@@ -44,5 +44,5 @@ app.post("/send-notification", (req, res) => {
 });
 
 // Démarrer le serveur
-const PORT = 5000;
+const PORT = 8000;
 app.listen(PORT, () => console.log(`Serveur démarré sur le port ${PORT}`));
